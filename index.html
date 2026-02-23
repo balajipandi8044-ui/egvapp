@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Download</title>
+  <title>EVG Transport App Download</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      padding: 30px;
+      background-color: #f4f6f9;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .btn {
+      background-color: #27ae60;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .steps {
+      text-align: left;
+      margin-top: 30px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-  <a id="download" href="EGV_TRANSPORT_MANAGEMENT.apk" download></a>
 
-  <script>
-    document.getElementById("download").click();
-  </script>
+<h1>EVG Transport Parent App</h1>
+
+<p>Please follow the steps below to install the app.</p>
+<p>Your download will start automatically...</p>
+
+<script>
+  window.onload = function() {
+    window.location.href =
+    "https://raw.githubusercontent.com/balajipandi8044-ui/egvapp/main/EVG_TRANSPORT_MANAGEMENT.apk";
+  };
+</script>
+
+<p>If download does not start,
+<a href="https://raw.githubusercontent.com/balajipandi8044-ui/egvapp/main/EVG_TRANSPORT_MANAGEMENT.apk">
+Click Here
+</a>
+</p>
+<a class="btn" href="https://raw.githubusercontent.com/balajipandi8044-ui/egvapp/main/EVG_TRANSPORT_MANAGEMENT.apk">
+  Download App
+</a>
+
+<div class="steps">
+  <h3>Installation Steps:</h3>
+  <ol>
+    <li>Click Download App button.</li>
+    <li>Open the downloaded file.</li>
+    <li>Allow "Install from Unknown Sources".</li>
+    <li>Install the app.</li>
+  </ol>
+</div>
+
 </body>
 </html>
